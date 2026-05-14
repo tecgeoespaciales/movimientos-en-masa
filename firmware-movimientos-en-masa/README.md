@@ -37,7 +37,7 @@ El firmware utiliza el archivo `config_env.h` para gestionar credenciales sensib
 #define SECRET_GPRS_PASS  ""
 
 // --- CONFIGURACIÓN BROKER MQTT ---
-#define SECRET_MQTT_SERVER "38.242.158.7"   // IP Servidor SGC
+#define SECRET_MQTT_SERVER "00.000.000.0"   // IP Servidor a usar
 #define SECRET_MQTT_PORT   1883
 #define SECRET_MQTT_USER   "tu_usuario"
 #define SECRET_MQTT_PASS   "tu_clave"

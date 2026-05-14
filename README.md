@@ -1,4 +1,4 @@
-# Estación de Monitoreo Automática (EMA) - Movimientos en Masa 🛰️⛰️
+# Estación de monitoreo automática (EMA) - Movimientos en Masa 🛰️⛰️
 
 > Espacio de trabajo para la rama **profesional** del dispositivo **movimientos-en-masa**, desarrollado bajo los estándares técnicos del **Servicio Geológico Colombiano (SGC)**.
 
