@@ -1,6 +1,6 @@
 # ⚙️ Especificaciones de fabricación mecánica (híbrido ABS - resina)
 
-Este directorio contiene los archivos de diseño industrial para el ensamble del nodo de monitoreo **EMA - Movimientos en Masa**. El sistema utiliza una combinación estratégica de materiales para garantizar precisión milimétrica y durabilidad estructural en campo.
+Este directorio contiene los archivos de diseño industrial para el ensamble del nodo de monitoreo **EMA - Movimientos en masa**. El sistema utiliza una combinación estratégica de materiales para garantizar precisión milimétrica y durabilidad estructural en campo.
 
 ## 📂 Inventario de piezas (.STL)
 
