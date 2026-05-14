@@ -5,13 +5,11 @@
 ## 📂 Módulos del proyecto
 Para una navegación detallada por los componentes del sistema, acceda a los siguientes módulos:
 
-- 📑 [docs-movimientos-en-masa](./docs-movimientos-en-masa/README.md) - Manuales técnicos, de operación y seguridad.
-- 🔌 [hardware-movimientos-en-masa](./hardware-movimientos-en-masa/README.md) - Esquemas electrónicos, PinOut y listado de componentes.
-- 💻 [firmware-movimientos-en-masa](./firmware-movimientos-en-masa/README.md) - Código fuente para ESP32 con cifrado AES y protocolos SSL.
-- ⚙️ [mechanical-movimientos-en-masa](./mechanical-movimientos-en-masa/README.md) - Archivos STL para impresión 3D en resina ABS.
-- 📑 docs-movimientos-en-masa – Manuales técnicos, de operación y seguridad.
-- 🎬 video-tutoriales-movimientos-en-masa – Guías visuales paso a paso para la operación y extracción de datos en campo.
-
+📑 **[docs-movimientos-en-masa](./Docs/)** – Manuales técnicos, de operación y seguridad.
+* 🔌 **[hardware-movimientos-en-masa](./Hardware/)** – Esquemas electrónicos, PinOut y listado de componentes.
+* 💻 **[firmware-movimientos-en-masa](./Firmware_ESP32/)** – Código fuente para ESP32 con protocolos de comunicación segura.
+* ⚙️ **[mechanical-movimientos-en-masa](./Mechanical/)** – Archivos STL para impresión 3D en resina y ABS.
+* 🎬 **[video-tutoriales-movimientos-en-masa](./Videos/)** – Guías visuales paso a paso para la operación y extracción de datos en campo.
 ---
 
 ## 📝 Descripción general
