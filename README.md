@@ -5,11 +5,12 @@
 ## 📂 Módulos del proyecto
 Para una navegación detallada por los componentes del sistema, acceda a los siguientes módulos:
 
-📑 **[docs-movimientos-en-masa](./Docs/)** – Manuales técnicos, de operación y seguridad.
+* 📑 **[docs-movimientos-en-masa](./Docs/)** – Manuales técnicos, de operación y seguridad.
 * 🔌 **[hardware-movimientos-en-masa](./Hardware/)** – Esquemas electrónicos, PinOut y listado de componentes.
 * 💻 **[firmware-movimientos-en-masa](./Firmware_ESP32/)** – Código fuente para ESP32 con protocolos de comunicación segura.
 * ⚙️ **[mechanical-movimientos-en-masa](./Mechanical/)** – Archivos STL para impresión 3D en resina y ABS.
 * 🎬 **[video-tutoriales-movimientos-en-masa](./Videos/)** – Guías visuales paso a paso para la operación y extracción de datos en campo.
+
 ---
 
 ## 📝 Descripción general
