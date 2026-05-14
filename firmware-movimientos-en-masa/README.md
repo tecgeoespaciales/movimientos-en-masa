@@ -1,4 +1,4 @@
-# 💾 Firmware EMA - Sistema de Monitoreo de Movimientos en masa
+# 💾 Firmware EMA - Sistema de monitoreo de movimientos en masa
 
 Este directorio contiene el desarrollo lógico integral para el microcontrolador **ESP32 (LilyGO T-A7670G)**. El firmware ha sido diseñado para garantizar la captura precisa de desplazamientos superficiales y su transmisión telemática bajo condiciones ambientales críticas.
 
