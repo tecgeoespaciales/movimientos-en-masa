@@ -2,11 +2,17 @@
 
 Este directorio contiene el desarrollo lógico integral para el microcontrolador **ESP32 (LilyGO T-A7670G)**. El firmware ha sido diseñado para garantizar la captura precisa de desplazamientos superficiales y su transmisión telemática bajo condiciones ambientales críticas.
 
-## 🏗️ Arquitectura del Software (FreeRTOS)
+## ❓ ¿Para qué sirve esta carpeta?
+Esta carpeta es el **núcleo del sistema**. El firmware aquí alojado actúa como el "cerebro" del nodo EMA, encargándose de:
+* **Interpretar el Movimiento:** Traduce las señales físicas del sensor H206 en datos métricos de desplazamiento.
+* **Gestión Inteligente:** Controla cuándo el equipo debe "dormir" para ahorrar batería y cuándo debe "despertar" para reportar una alerta.
+* **Puente de Comunicación:** Transforma los datos recolectados en tramas MQTT para enviarlas vía satelital/celular al centro de datos del SGC.
+* **Seguridad de Datos:** Administra el respaldo local (MicroSD/LittleFS) para que nunca se pierda información por falta de señal.
 
+## 🏗️ Arquitectura del Software (FreeRTOS)
 Para garantizar que no se pierda ningún pulso del encoder durante las tareas de comunicación, el firmware utiliza una arquitectura de doble núcleo:
 * **Core 1 (Prioridad Crítica):** Ejecuta la tarea de vigilancia del sensor óptico H206. Detecta flancos de subida y bajada en el Pin 32 en tiempo real.
-* **Core 0 (Gestión de Red):** Administra la pila TCP/IP, los comandos AT del módem SIM7600/A7670G y la sesión MQTT.
+* **Core 0 (Gestión de Red):** Administra la pila TCP/IP, los comandos AT del módem A7670G y la sesión MQTT.
 
 ## ⚡ Gestión de Energía y Eficiencia
 El sistema está optimizado para funcionar con un panel solar de 15W y una batería de respaldo:
@@ -16,11 +22,10 @@ El sistema está optimizado para funcionar con un panel solar de 15W y una bater
 * **Hardware:** Se implementa una resistencia de pull-up de 100kΩ para minimizar fugas de corriente en reposo.
 
 ## 🔐 Configuración de Seguridad (Paso a Paso)
+El firmware utiliza el archivo `config_env.h` para gestionar credenciales sensibles sin exponerlas en el historial de Git. Siga estas instrucciones para compilar:
 
-El firmware utiliza el archivo `config_env.h` para gestionar credenciales sensibles sin exponerlas en el historial de Git. **Siga estas instrucciones para compilar:**
-
-1.  En esta carpeta, cree un archivo nuevo llamado exactamente `config_env.h`.
-2.  Copie y pegue la siguiente estructura (basada en su `.env.example`):
+1. En esta carpeta, cree un archivo nuevo llamado exactamente `config_env.h`.
+2. Copie y pegue la siguiente estructura:
 
 ```cpp
 #ifndef CONFIG_ENV_H
