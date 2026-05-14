@@ -29,16 +29,16 @@ Cada terminal y periférico visualizado en el esquema de conexiones cumple una f
 * **Interfaz:** Bus SPI (**CS: IO13**).
 * **Función:** Respaldo físico de archivos CSV. Asegura que los datos no se pierdan si falla la cobertura celular.
 
-## ⚙️ Especificaciones Mecánicas Integradas
+## ⚙️ Especificaciones mecánicas integradas
 Para asegurar la fidelidad del dato del sensor H206, el hardware se apoya en:
 * **Eje:** Varilla lisa de acero de 8mm.
 * **Soportes:** Rodamientos **KFL08** de alta eficiencia para un giro sin fricción.
 * **Tracción:** Nylon trenzado de 8 hilos (elongación nula).
 
-## 🛠️ Guía de Ensamble y Mantenimiento
-1.  **Alineación Crítica:** El disco encoder debe estar perfectamente centrado en la herradura del sensor H206 para evitar rozamientos.
-2.  **Protección Ambiental:** El hardware debe alojarse en la **Caja de paso 15x15 hermética** para proteger los circuitos de la humedad y el polvo.
-3.  **Botón de Servicio (IO0):** Se utiliza para activar el portal Wi-Fi local sin necesidad de abrir el equipo en campo.
+## 🛠️ Guía de ensamble y mantenimiento
+1.  **Alineación crítica:** El disco encoder debe estar perfectamente centrado en la herradura del sensor H206 para evitar rozamientos.
+2.  **Protección ambiental:** El hardware debe alojarse en la **Caja de paso 15x15 hermética** para proteger los circuitos de la humedad y el polvo.
+3.  **Botón de servicio (IO0):** Se utiliza para activar el portal Wi-Fi local sin necesidad de abrir el equipo en campo.
 
 ---
 **Autor:** Jhoiner Andretty Silva Montaño  
