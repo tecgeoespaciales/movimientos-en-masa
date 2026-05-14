@@ -58,7 +58,7 @@ El sistema garantiza la integridad de los datos para el SGC mediante:
 ---
 
 ## ⚠️ Mantenimiento
-* Limpiar el panel solar mensualmente.
+* Limpiar el panel solar cada 3 meses.
 * Revisar la tensión del nylon trenzado cada 3 meses.
 
 ---
