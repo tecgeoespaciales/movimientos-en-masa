@@ -1,14 +1,11 @@
-# Ignorar archivos de configuración con claves reales
+# Archivos de configuración privada
 .env
 config_env.h
 secrets.h
 
-# Ignorar carpetas de códigos de respaldo y pruebas
-"CODIGO_FINAL_TRANSMISION TIEMPO REAL/"
-"CODIGOS DE PRUEBA/"
+# Archivos de sistema (Mac)
+.DS_Store
 
-# Ignorar archivos temporales de Arduino y VS Code
+# Carpetas temporales de compilación
 /build/
 .vscode/
-*.local
-.DS_Store
