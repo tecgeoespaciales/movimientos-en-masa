@@ -44,7 +44,7 @@ El firmware utiliza el archivo `config_env.h` para gestionar credenciales sensib
 #endif
 
 
----
-**Autor:** Jhoiner Andretty Silva Montaño  
-**Entidad:** Servicio Geológico Colombiano  
-**Año:** 2026
+//-- AUTOR --
+//**Autor:** Jhoiner Andretty Silva Montaño  
+//**Entidad:** Servicio Geológico Colombiano  
+//**Año:** 2026
