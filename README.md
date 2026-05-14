@@ -1,4 +1,4 @@
-# 🌍 Proyecto EMA - Estación de Monitoreo de Movimientos en masa
+# 🌍 Proyecto EMA - Estación de monitoreo de movimientos en masa
 
 Este proyecto, desarrollado por **Jhoiner Silva** para el **Servicio Geológico Colombiano (SGC)**, consiste en un sistema de instrumentación geotécnica diseñado para la detección temprana de desplazamientos de terreno. El nodo utiliza tecnología IoT para transformar variables físicas en datos telemáticos, permitiendo la gestión de riesgos en tiempo real.
 
